@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Esto asegura que el ancho total del elemento incluya el relleno y el borde */
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+.logo{
+    height: 100px;
+}
+main{
+    height: auto;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg , #ffffff, #ffadad);
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.subtitulo{
+    font-size: 2em;
+    color: black;
+    margin: 0px 0px 40px 20px;
+}
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 30px;
+    height: 150px;
+}
+.contenedorProducto{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 180px;
+    border: 1.5px solid black;
+    border-radius:  10px;
+    transition: width 0.3s, height 0.3s;
+}
+.contenedorProducto:hover{
+    background-color: rgb(128, 134, 134);
+    height: 170px;
+    width: 190px;
+}
+.imagenProducto{
+    height: 80%;
+    border: 1px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: width 0.3s, height 0.3s
+}
+footer{
+    background: linear-gradient(180deg , #ffadad, #f88f8f);
+
+}
+.enlaces{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.enlace{
+    margin-bottom: 30px;
+    background-color: #797979;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.enlace:hover{
+    background-color: rgb(53, 53, 53);
+}
